@@ -3,6 +3,9 @@ set -o errexit
 VERSION="v3.4.1"
 sudo apt update
 sudo apt install -y python-wstool python-rosdep ninja-build
+sudo echo "199.232.28.133 raw.githubusercontent.com" >> /etc/hosts
+rosdep init
+rosdep update
 mkdir -p ~/cartographer_ws/src
 cp .rosinstall ~/cartographer_ws/src/
 cd ~/cartographer_ws
