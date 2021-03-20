@@ -7,8 +7,4 @@
     local-name: cartographer_ros
     uri: https://gitee.com/WLwindlinfeng/cartographer_ros.git
     version: 1.0.0
-- git:
-    local-name: ceres-solver
-    uri: https://gitee.com/WLwindlinfeng/ceres-solver.git
-    version: 1.13.0
 
